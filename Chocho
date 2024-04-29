@@ -4,7 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log***
+lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -39,7 +39,7 @@ build/Release
 
 # Dependency directories
 node_modules/
-jspm_packages/
+jspm_packages//
 
 # TypeScript v1 declaration files
 typings/
@@ -76,7 +76,7 @@ typings/
 .cache
 
 # Next.js build output
-.next
+next
 
 # Nuxt.js build / generate output
 .nuxt
